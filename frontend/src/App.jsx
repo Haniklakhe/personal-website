@@ -13,7 +13,9 @@ import './App.css';
 const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').trim();
 
 function App() {
-  const isAdminPage = window.location.pathname === '/admin';
+  const isAdminPage =
+    window.location.pathname === '/admin' ||
+    window.location.hash === '#/admin';
 
   if (isAdminPage) {
     return <AdminPanel />;
