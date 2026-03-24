@@ -1,0 +1,61 @@
+[
+  {
+    "id": "exp-001",
+    "period": "Jun 2025 – Present",
+    "role": "Student Research Assistant",
+    "organization": "Global Water and Sanitation Centre (GWSC), AIT",
+    "location": "Pathum Thani, Thailand",
+    "current": true,
+    "description": "Managing geospatial datasets and creating GIS visualizations for water and sanitation projects",
+    "responsibilities": [
+      "Prepare and manage geospatial datasets for sanitation infrastructure, service coverage, and urban demographics.",
+      "Generate ArcGIS/QGIS maps for CWIS city assessments, investment planning, and presentations.",
+      "Integrate field data and geo-referenced surveys into project dashboards and planning tools.",
+      "Assist in developing technical reports communicating GIS outputs to international organizations."
+    ]
+  },
+  {
+    "id": "exp-002",
+    "period": "Aug 2024 – Present",
+    "role": "MSc Candidate — Water Engineering & Management",
+    "organization": "Asian Institute of Technology (AIT)",
+    "location": "Pathum Thani, Thailand",
+    "current": true,
+    "description": "Graduate research focusing on hydrological modelling and water security",
+    "responsibilities": [
+      "GPA: 3.87/4.0 · AIT Scholarship (75%) + GWSC Scholarship (25%)",
+      "Developing SWAT hydrological models for water resource assessment",
+      "Research on climate change impacts on water availability"
+    ]
+  },
+  {
+    "id": "exp-003",
+    "period": "Jan – Jun 2025",
+    "role": "Research Assistant / Hydrological Modeller",
+    "organization": "Water Engineering and Management, AIT",
+    "location": "Pathum Thani, Thailand",
+    "current": false,
+    "description": "Developed hydrological models for flood risk assessment in Northern Thailand",
+    "responsibilities": [
+      "Developed SWAT hydrological models for water resource assessment and flood risk in Northern Thailand.",
+      "Designed a water security framework and identified nature-based solutions for urban water management.",
+      "Organized research partner meetings and served as liaison across teams."
+    ]
+  },
+  {
+    "id": "exp-004",
+    "period": "Jan 2023 – Jul 2024",
+    "role": "Project Leader",
+    "organization": "MESSHI Project",
+    "location": "Lalitpur, Nepal",
+    "current": false,
+    "description": "Led suspended sediment monitoring project with citizen science team",
+    "responsibilities": [
+      "Established a suspended sediment laboratory from scratch; deployed OBS sensors at remote Himalayan sites.",
+      "Led all fieldwork planning, data collection, and quality control operations.",
+      "Recruited, trained, and managed a citizen science team to expand monitoring network capacity.",
+      "Co-authored findings at AGU Fall Meeting 2023 and WaterSciCon24, published in EGUsphere (2026).",
+      "Facilitated workshops for local partners, building long-term monitoring capacity."
+    ]
+  }
+]

@@ -1,0 +1,131 @@
+.about {
+  background: var(--bg-white);
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.header {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.left, .right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.left h3, .right h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.left p, .right p {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 0.5rem;
+}
+
+.skillsTitle {
+  margin-top: 1.5rem;
+}
+
+.socTitle {
+  margin-top: 1.5rem;
+}
+
+.skillGroup {
+  margin-bottom: 1.2rem;
+}
+
+.skillGroup h4 {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-main);
+  font-weight: 600;
+}
+
+.skillList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill {
+  display: inline-block;
+  padding: 0.35rem 0.85rem;
+  background: var(--primary-light);
+  color: var(--primary);
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-family: var(--font-mono);
+}
+
+.contactInfo {
+  background: var(--bg-alt);
+  padding: 1.2rem;
+  border-radius: 8px;
+}
+
+.contactInfo p {
+  margin-bottom: 0.8rem;
+}
+
+.contactInfo strong {
+  color: var(--text-main);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.contactInfo a {
+  color: var(--primary);
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.social a {
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  color: var(--text-main);
+  transition: all 0.2s;
+}
+
+.social a:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  color: var(--primary);
+}
+
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

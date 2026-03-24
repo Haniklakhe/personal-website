@@ -1,0 +1,62 @@
+{
+  "id": "profile-001",
+  "firstName": "Hanik",
+  "lastName": "Lakhe",
+  "title": "Water Engineer & Hydrologist",
+  "subtitle": "MSc Water Engineering & Management · Asian Institute of Technology, Thailand",
+  "bio": "Graduate student at AIT Thailand with 5+ years of research in hydrology, GIS, citizen science, and AI/ML — solving real water challenges across South and Southeast Asia.",
+  "shortBio": "Make your life meaningful and work hard to achieve what you want in your life.",
+  "avatar": "/uploads/profile-photo.jpg",
+  "email": "hlakhe123.hl@gmail.com",
+  "phone": "+66 96 520 9584",
+  "location": "Pathum Thani, Thailand",
+  "status": [
+    { "label": "Research Assistant · GWSC, AIT", "active": true },
+    { "label": "MSc Candidate · AIT Thailand", "active": true }
+  ],
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/hanik-lakhe",
+    "researchgate": "https://www.researchgate.net/profile/Hanik-Lakhe",
+    "orcid": "https://orcid.org/0000-0000-0000-0000",
+    "github": "https://github.com/hanik-lakhe",
+    "twitter": "https://twitter.com"
+  },
+  "stats": [
+    { "number": "250+", "label": "Research Hours" },
+    { "number": "15+", "label": "Publications" },
+    { "number": "5+", "label": "Years Experience" },
+    { "number": "3.87", "label": "GPA (AIT)" }
+  ],
+  "highlights": {
+    "biography": "I'm a Water Engineering and Management graduate student at the Asian Institute of Technology (AIT), Thailand (GPA: 3.87/4.0), with a deep focus on hydrology, climate change, and sustainable water resource management.",
+    "expertise": "My research integrates hydrological modelling, remote sensing, GIS, and AI/ML to solve real-world water challenges.",
+    "skills": {
+      "technical": ["SWAT Hydrological Modelling", "Remote Sensing & GIS", "Python & R", "Machine Learning", "Geospatial Analysis"],
+      "programming": ["Python", "R", "JavaScript", "SQL", "QGIS/ArcGIS"],
+      "languages": ["English (Fluent)", "Nepali (Native)", "Thai (Conversational)"]
+    }
+  },
+  "awards": [
+    {
+      "title": "AIT Scholarship",
+      "organization": "Asian Institute of Technology",
+      "year": "2024-2026",
+      "icon": "🏆"
+    },
+    {
+      "title": "AGU Fall Meeting Presenter",
+      "organization": "American Geophysical Union",
+      "year": "2023",
+      "icon": "🎤"
+    }
+  ],
+  "references": [
+    {
+      "name": "Dr. Jane Smith",
+      "title": "Principal Advisor",
+      "organization": "AIT Thailand",
+      "email": "jane.smith@ait.ac.th"
+    }
+  ],
+  "updatedAt": "2026-03-24T10:00:00Z"
+}

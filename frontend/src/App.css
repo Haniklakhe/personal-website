@@ -1,0 +1,15 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  padding: 4rem var(--gutter);
+}
+
+@media (max-width: 768px) {
+  section {
+    padding: 3rem var(--gutter);
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "id": "proj-001",
+    "title": "Flood Risk Assessment in Northern Thailand",
+    "category": "Hydrological Modelling",
+    "description": "Developed SWAT hydrological models to evaluate flood risk in Northern Thai watersheds under climate change scenarios",
+    "shortDescription": "SWAT-based flood risk modelling for Thai watersheds",
+    "status": "In Progress",
+    "startDate": "2025-01-01",
+    "endDate": null,
+    "team": ["Hanik Lakhe", "Dr. Advisor Name", "Team Members"],
+    "tags": ["SWAT", "Hydrology", "GIS", "Climate Change", "Flood Risk"],
+    "image": "/uploads/project-001.jpg",
+    "content": "# Flood Risk Assessment Project\n\nThis project aims to understand flood risks in Northern Thailand watersheds using advanced hydrological modelling.",
+    "details": {
+      "objectives": [
+        "Develop SWAT models for 5 key watersheds",
+        "Assess flood risk under different climate scenarios",
+        "Identify nature-based solutions for risk reduction"
+      ],
+      "methods": ["SWAT Modelling", "Remote Sensing", "Climate Data Analysis"],
+      "outcomes": ["Risk assessment maps", "Policy recommendations", "Nature-based solutions framework"]
+    }
+  },
+  {
+    "id": "proj-002",
+    "title": "MESSHI: Suspended Sediment Monitoring",
+    "category": "Citizen Science",
+    "description": "Established suspended sediment monitoring network in Himalayan rivers using optical backscatter (OBS) sensors and citizen science approaches",
+    "shortDescription": "Himalayan river sediment monitoring with citizen science",
+    "status": "Completed",
+    "startDate": "2023-01-01",
+    "endDate": "2024-07-31",
+    "team": ["Hanik Lakhe", "Local Partners", "Citizen Science Team"],
+    "tags": ["Sediment", "Remote Sensing", "Citizen Science", "Himalaya", "Monitoring"],
+    "image": "/uploads/project-002.jpg",
+    "content": "# MESSHI Project Overview\n\nEstablished comprehensive suspended sediment monitoring across Himalayan river systems.",
+    "details": {
+      "objectives": [
+        "Deploy OBS sensors at 10+ remote sites",
+        "Build local monitoring capacity",
+        "Generate 3-year sediment dataset"
+      ],
+      "methods": ["Field monitoring", "Sensor deployment", "Citizen science training"],
+      "outcomes": ["AGU and WaterSciCon presentations", "EGUsphere publication", "Citizen science network"]
+    }
+  }
+]
