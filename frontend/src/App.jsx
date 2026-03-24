@@ -7,11 +7,18 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Publications from './components/Publications';
 import Contact from './components/Contact';
+import AdminPanel from './admin/AdminPanel';
 import './App.css';
 
 const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').trim();
 
 function App() {
+  const isAdminPage = window.location.pathname === '/admin';
+
+  if (isAdminPage) {
+    return <AdminPanel />;
+  }
+
   const [profile, setProfile] = useState(null);
   const [experience, setExperience] = useState(null);
   const [projects, setProjects] = useState(null);
