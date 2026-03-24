@@ -26,6 +26,14 @@
   margin-bottom: 1rem;
 }
 
+.introTag {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.18em;
+  color: var(--text-muted);
+  margin-bottom: 0.8rem;
+}
+
 .eyebrow::before {
   content: '';
   width: 1.8rem;

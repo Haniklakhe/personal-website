@@ -1,4 +1,5 @@
 import styles from './Hero.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Hero({ profile }) {
   if (!profile) return <div>Loading...</div>;
@@ -7,6 +8,7 @@ export default function Hero({ profile }) {
     <section className={styles.hero}>
       <div className={styles.inner}>
         <div className={styles.content}>
+          <div className={styles.introTag}>HELLO, MY NAME IS</div>
           <div className={styles.eyebrow}>{profile.title}</div>
           <h1 className={styles.name}>
             {profile.firstName}
@@ -25,9 +27,9 @@ export default function Hero({ profile }) {
           </div>
 
           <div className={styles.actions}>
-            <a href="#about" className="btn btn-primary">About Me</a>
-            <a href="#projects" className="btn btn-secondary">View Projects</a>
-            <a href="#contact" className="btn btn-outline">Contact</a>
+            <Link to="/about" className="btn btn-primary">About Me</Link>
+            <Link to="/projects" className="btn btn-secondary">View Projects</Link>
+            <Link to="/contact" className="btn btn-outline">Contact</Link>
           </div>
 
           <div className={styles.stats}>
