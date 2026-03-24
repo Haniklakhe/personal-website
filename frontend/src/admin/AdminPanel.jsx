@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 import './AdminPanel.css';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').trim();
 
 export default function AdminPanel() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);

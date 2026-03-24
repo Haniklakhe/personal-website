@@ -9,7 +9,7 @@ import Publications from './components/Publications';
 import Contact from './components/Contact';
 import './App.css';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE = (import.meta.env.VITE_API_URL || 'http://localhost:5000/api').trim();
 
 function App() {
   const [profile, setProfile] = useState(null);

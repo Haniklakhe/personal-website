@@ -16,7 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 
 // Middleware
 app.use(cors({
-  origin: process.env.FRONTEND_URL || 'http://localhost:3000',
+  origin: (process.env.FRONTEND_URL || 'http://localhost:3000').trim(),
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));

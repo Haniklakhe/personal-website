@@ -18,7 +18,7 @@ const verifyAuth = (req, res, next) => {
   }
   
   try {
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'dev-secret');
+    const decoded = jwt.verify(token, (process.env.JWT_SECRET || 'dev-secret').trim());
     req.user = decoded;
     next();
   } catch (error) {
@@ -30,7 +30,7 @@ const verifyAuth = (req, res, next) => {
 router.post('/login', async (req, res) => {
   try {
     const { password } = req.body;
-    const adminPassword = process.env.ADMIN_PASSWORD || 'admin123';
+    const adminPassword = (process.env.ADMIN_PASSWORD || 'admin123').trim();
     
     // For demo: simple password check
     // In production: use proper authentication
@@ -40,7 +40,7 @@ router.post('/login', async (req, res) => {
     
     const token = jwt.sign(
       { admin: true, timestamp: Date.now() },
-      process.env.JWT_SECRET || 'dev-secret',
+      (process.env.JWT_SECRET || 'dev-secret').trim(),
       { expiresIn: '24h' }
     );
     
