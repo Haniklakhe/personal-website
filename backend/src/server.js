@@ -14,9 +14,25 @@ dotenv.config();
 const app = express();
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
+const allowedOrigins = [
+  (process.env.FRONTEND_URL || '').trim(),
+  'http://localhost:3000',
+  'https://frontend-flame-mu-16.vercel.app',
+  'https://haniklakhe.github.io'
+].filter(Boolean);
+
 // Middleware
 app.use(cors({
-  origin: (process.env.FRONTEND_URL || 'http://localhost:3000').trim(),
+  origin: (origin, callback) => {
+    // Allow server-to-server and same-origin requests without Origin header.
+    if (!origin) return callback(null, true);
+
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    }
+
+    return callback(new Error(`CORS blocked for origin: ${origin}`));
+  },
   credentials: true
 }));
 app.use(express.json({ limit: '10mb' }));
