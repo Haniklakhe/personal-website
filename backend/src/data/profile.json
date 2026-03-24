@@ -3,10 +3,10 @@
   "firstName": "Hanik",
   "lastName": "Lakhe",
   "title": "Water Engineer & Hydrologist",
-  "subtitle": "MSc Water Engineering & Management · Asian Institute of Technology, Thailand",
-  "bio": "Graduate student at AIT Thailand with 5+ years of research in hydrology, GIS, citizen science, and AI/ML — solving real water challenges across South and Southeast Asia.",
-  "shortBio": "Make your life meaningful and work hard to achieve what you want in your life.",
-  "avatar": "/uploads/profile-photo.jpg",
+  "subtitle": "MSc Water Engineering & Management, AIT Thailand · Researcher in Hydrology, GIS, and Climate Risk",
+  "bio": "Water engineering researcher with 5+ years of applied experience across Nepal and Southeast Asia, combining hydrological modelling, geospatial analytics, and citizen-science methods to improve flood resilience and water security.",
+  "shortBio": "Building resilient water futures through data, field science, and practical solutions.",
+  "avatar": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&w=900&q=80",
   "email": "hlakhe123.hl@gmail.com",
   "phone": "+66 96 520 9584",
   "location": "Pathum Thani, Thailand",
@@ -18,44 +18,56 @@
     "linkedin": "https://www.linkedin.com/in/hanik-lakhe",
     "researchgate": "https://www.researchgate.net/profile/Hanik-Lakhe",
     "orcid": "https://orcid.org/0000-0000-0000-0000",
-    "github": "https://github.com/hanik-lakhe",
-    "twitter": "https://twitter.com"
+    "github": "https://github.com/Haniklakhe",
+    "twitter": ""
   },
   "stats": [
-    { "number": "250+", "label": "Research Hours" },
-    { "number": "15+", "label": "Publications" },
+    { "number": "5+", "label": "Years Research Experience" },
+    { "number": "10+", "label": "Conference / Publication Outputs" },
     { "number": "5+", "label": "Years Experience" },
     { "number": "3.87", "label": "GPA (AIT)" }
   ],
   "highlights": {
-    "biography": "I'm a Water Engineering and Management graduate student at the Asian Institute of Technology (AIT), Thailand (GPA: 3.87/4.0), with a deep focus on hydrology, climate change, and sustainable water resource management.",
-    "expertise": "My research integrates hydrological modelling, remote sensing, GIS, and AI/ML to solve real-world water challenges.",
+    "biography": "I am an MSc candidate in Water Engineering and Management at the Asian Institute of Technology (AIT), Thailand (GPA 3.87/4.0), focused on hydrology, climate adaptation, and sustainable water resource systems.",
+    "expertise": "My work integrates SWAT/HEC-HMS modelling, remote sensing, GIS, and machine learning to translate data into practical water management decisions.",
     "skills": {
-      "technical": ["SWAT Hydrological Modelling", "Remote Sensing & GIS", "Python & R", "Machine Learning", "Geospatial Analysis"],
+      "technical": ["SWAT / HEC-HMS Modelling", "Remote Sensing & GIS", "Python & R", "Machine Learning", "Geospatial Analysis"],
       "programming": ["Python", "R", "JavaScript", "SQL", "QGIS/ArcGIS"],
-      "languages": ["English (Fluent)", "Nepali (Native)", "Thai (Conversational)"]
+      "languages": ["English", "Nepali", "Hindi", "Newari"]
     }
   },
   "awards": [
     {
-      "title": "AIT Scholarship",
-      "organization": "Asian Institute of Technology",
+      "title": "AIT Scholarship (75%) + GWSC Scholarship (25%)",
+      "organization": "Asian Institute of Technology / Global Water and Sanitation Center",
       "year": "2024-2026",
       "icon": "🏆"
     },
     {
-      "title": "AGU Fall Meeting Presenter",
+      "title": "AGU Fall Meeting Travel Grant",
       "organization": "American Geophysical Union",
-      "year": "2023",
+      "year": "2021",
       "icon": "🎤"
+    },
+    {
+      "title": "Academic Merit Scholarship",
+      "organization": "Khwopa College",
+      "year": "2017",
+      "icon": "🎓"
     }
   ],
   "references": [
     {
-      "name": "Dr. Jane Smith",
-      "title": "Principal Advisor",
-      "organization": "AIT Thailand",
-      "email": "jane.smith@ait.ac.th"
+      "name": "Prof. Dr. Sangam Shrestha",
+      "title": "Dean, School of Engineering and Technology",
+      "organization": "Asian Institute of Technology, Thailand",
+      "email": "sangam@ait.ac.th"
+    },
+    {
+      "name": "Dr. Rocky Talchabhadel",
+      "title": "Assistant Professor",
+      "organization": "Jackson State University / S4W-Nepal",
+      "email": "rocky.talchabhadel@jsums.edu"
     }
   ],
   "updatedAt": "2026-03-24T10:00:00Z"

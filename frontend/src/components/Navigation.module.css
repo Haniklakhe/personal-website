@@ -47,6 +47,11 @@
   transition: color 0.2s;
 }
 
+.links a:global(.active) {
+  color: var(--primary);
+  font-weight: 600;
+}
+
 .links a:hover {
   color: var(--primary);
 }
@@ -96,6 +101,11 @@
 
 .drawer a {
   color: var(--text-main);
+}
+
+.drawer a:global(.active) {
+  color: var(--primary);
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {

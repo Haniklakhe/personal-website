@@ -1,5 +1,6 @@
 import styles from './Navigation.module.css';
 import { useState } from 'react';
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -7,20 +8,20 @@ export default function Navigation() {
   return (
     <nav className={styles.nav}>
       <div className={styles.inner}>
-        <a href="/" className={styles.brand}>
+        <Link to="/" className={styles.brand}>
           Hanik <span>Lakhe</span>
-        </a>
+        </Link>
 
         <ul className={styles.links}>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#publications">Publications</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><NavLink to="/">Home</NavLink></li>
+          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/experience">Experience</NavLink></li>
+          <li><NavLink to="/projects">Projects</NavLink></li>
+          <li><NavLink to="/publications">Publications</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
         </ul>
 
-        <a href="#contact" className={styles.cta}>Contact Me</a>
+        <Link to="/contact" className={styles.cta}>Contact Me</Link>
 
         <button 
           className={styles.burger}
@@ -32,12 +33,12 @@ export default function Navigation() {
 
       {mobileMenuOpen && (
         <div className={styles.drawer}>
-          <a href="#home" onClick={() => setMobileMenuOpen(false)}>Home</a>
-          <a href="#about" onClick={() => setMobileMenuOpen(false)}>About</a>
-          <a href="#experience" onClick={() => setMobileMenuOpen(false)}>Experience</a>
-          <a href="#projects" onClick={() => setMobileMenuOpen(false)}>Projects</a>
-          <a href="#publications" onClick={() => setMobileMenuOpen(false)}>Publications</a>
-          <a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact</a>
+          <NavLink to="/" onClick={() => setMobileMenuOpen(false)}>Home</NavLink>
+          <NavLink to="/about" onClick={() => setMobileMenuOpen(false)}>About</NavLink>
+          <NavLink to="/experience" onClick={() => setMobileMenuOpen(false)}>Experience</NavLink>
+          <NavLink to="/projects" onClick={() => setMobileMenuOpen(false)}>Projects</NavLink>
+          <NavLink to="/publications" onClick={() => setMobileMenuOpen(false)}>Publications</NavLink>
+          <NavLink to="/contact" onClick={() => setMobileMenuOpen(false)}>Contact</NavLink>
         </div>
       )}
     </nav>

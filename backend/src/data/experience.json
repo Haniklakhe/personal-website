@@ -57,5 +57,60 @@
       "Co-authored findings at AGU Fall Meeting 2023 and WaterSciCon24, published in EGUsphere (2026).",
       "Facilitated workshops for local partners, building long-term monitoring capacity."
     ]
+  },
+  {
+    "id": "exp-005",
+    "period": "Jul 2022 – Jul 2024",
+    "role": "Research Associate",
+    "organization": "Smartphones For Water Nepal (S4W-Nepal)",
+    "location": "Lalitpur, Nepal",
+    "current": false,
+    "description": "Coordinated surface-water research, datasets, publication support, and outreach activities.",
+    "responsibilities": [
+      "Managed organization-wide water monitoring datasets with quality control.",
+      "Facilitated the Surface Water research group from proposal to field implementation.",
+      "Co-authored peer-reviewed outputs and represented S4W-Nepal at international conferences.",
+      "Led awareness communication through social media and public water campaigns."
+    ]
+  },
+  {
+    "id": "exp-006",
+    "period": "Jan 2020 – Jun 2022",
+    "role": "Research Assistant",
+    "organization": "Smartphones For Water Nepal",
+    "location": "Lalitpur, Nepal",
+    "current": false,
+    "description": "Field, analytics, and publication support for watershed and hydrometeorological studies.",
+    "responsibilities": [
+      "Conducted field data collection and geospatial/statistical analysis using Python, R, and GIS.",
+      "Supported writing and review of scientific manuscripts and technical outputs."
+    ]
+  },
+  {
+    "id": "exp-007",
+    "period": "May – Jun 2024",
+    "role": "Participant, Himalayan Climate Data Field Lab",
+    "organization": "International Collaborative Program",
+    "location": "Patan, Nepal",
+    "current": false,
+    "description": "Interdisciplinary climate-risk and geospatial methods training with global participants.",
+    "responsibilities": [
+      "Worked with researchers from 17+ countries on climate resilience applications.",
+      "Built a machine-learning workflow for landslide susceptibility mapping.",
+      "Conducted vulnerability assessments along the Bagmati River corridor using drone imagery."
+    ]
+  },
+  {
+    "id": "exp-008",
+    "period": "Aug 2021 – Jul 2022",
+    "role": "Coordinator, Young Researchers' Circle",
+    "organization": "Young Researchers' Circle",
+    "location": "Lalitpur, Nepal",
+    "current": false,
+    "description": "Led activities and engagement for an early-career research network.",
+    "responsibilities": [
+      "Coordinated collaborative learning activities for 50+ young researchers.",
+      "Contributed to research communication initiatives and newsletters."
+    ]
   }
 ]
